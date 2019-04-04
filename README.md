@@ -1,4 +1,4 @@
-# cucumber-e2e
+# Cypress e2e
 
 **Installing Cypress via `yarn`:**
 
