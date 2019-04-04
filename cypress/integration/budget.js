@@ -1,9 +1,11 @@
 describe('Calculate the Budget', () => {
+
     before(()=>{
         cy.visit('https://budget.modus.app/budget')
     })
 
     it('Add an item to budget', () => {
+
         cy
             .get('select').select('Car')
         cy
@@ -23,6 +25,7 @@ describe('Calculate the Budget', () => {
     })
 
     it('Edit Paycheck item', () => {
+
         cy
             .get('tbody > :nth-child(6)').click()
         cy
@@ -42,6 +45,7 @@ describe('Calculate the Budget', () => {
     })
 
     it('Delete Rent item', () => {
+
         cy
             .get('tbody > :nth-child(7)').click()
         cy
@@ -54,6 +58,7 @@ describe('Calculate the Budget', () => {
     })
 
     it('Value field validation', () => {
+
         cy
             .get('select').select('Car')
         cy
