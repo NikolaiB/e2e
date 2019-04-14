@@ -7,3 +7,5 @@
 **Run Cypress:**
 
 `yarn run cypress open`
+
+PS. I would talk to developers first to add identificators or change selectors.
